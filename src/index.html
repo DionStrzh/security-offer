@@ -1,13 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="page">
   <head>
-    <title>Template</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.scss" />
+    <title>Максимальний захист | Пакет підключення</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="style.scss" >
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://sheriff.com.ua/wp-content/themes/sheriff/img/favicon.png"
+    >
     <script defer type="module" src="index.js"></script>
   </head>
   <body>
-    <h1>Happy hacking!</h1>
+    <div class="container offer page__offer">
+      <h1 class="offer__title">ви обрали наступний пакет підключення</h1>
+      <section class="offer__info">
+        <img
+          src="./assets/images/offer__ajax.png"
+          class="offer__image"
+          alt="Ajax Security Kit"
+        >
+        <div class="offer__description">
+          <h2 class="offer__description-title">
+            максимальний <br>
+            захист
+          </h2>
+          <ul class="offer__benefits-list">
+            <li class="offer__benefits-item">
+              <img
+                src="./assets/images/benefit__icon1.svg"
+                class="offer__benefits-icon offer__benefits-icon--first-icon"
+                alt="123"
+              >
+              <p class="offer__benefits__text">
+                комплект <br>
+                AJAX StarterKit
+              </p>
+            </li>
+            <li class="offer__benefits-item">
+              <img
+                src="./assets/images/benefit__icon2.svg"
+                class="offer__benefits-icon"
+                alt="123"
+              >
+              <p class="offer__benefits__text">
+                обладнання:
+                <span class="offer__benefits"><del>6449₴</del></span>
+                5999 ₴
+              </p>
+            </li>
+            <li class="offer__benefits-item">
+              <img
+                src="./assets/images/benefit__icon3.svg"
+                class="offer__benefits-icon"
+                alt="123"
+              >
+              <p class="offer__benefits__text">безкоштовний монтаж</p>
+            </li>
+            <li class="offer__benefits-item">
+              <img
+                src="./assets/images/benefit__icon4.svg"
+                class="offer__benefits-icon"
+                alt="123"
+              >
+              <p class="offer__benefits__text">
+                абонплата <br>
+                399 ₴ в місяць
+              </p>
+            </li>
+            <li class="offer__benefits-item">
+              <img
+                src="./assets/images/benefit__icon5.svg"
+                class="offer__benefits-icon"
+                alt="123"
+              >
+              <p class="offer__benefits__text">
+                функція <br>
+                "Залишаюсь вдома"
+              </p>
+            </li>
+            <li class="offer__benefits-item">
+              <img
+                src="./assets/images/benefit__icon6.svg"
+                class="offer__benefits-icon"
+                alt="123"
+              >
+              <p class="offer__benefits__text">
+                додаткові <br>
+                датчики руху: <br>
+                х2 - 2298 ₴
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="feedback page__feedback">
+        <h3 class="feedback__title">заповніть форму зворотнього зв’язку</h3>
+        <form
+          action="#"
+          method="POST"
+          class="feedback__form">
+          <input
+            type="text"
+            name="name"
+            placeholder="ваше ім'я"
+            class="feedback__input"
+            autocomplete="off"
+          >
+          <input
+            type="phone"
+            name="phone"
+            placeholder="ваш номер телефону"
+            class="feedback__input"
+            autocomplete="off"
+          >
+          <button type="submit" class="feedback__submit">підключитися</button>
+        </form>
+      </section>
+    </div>
   </body>
 </html>

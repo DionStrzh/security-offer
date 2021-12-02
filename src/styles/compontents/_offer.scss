@@ -1,0 +1,68 @@
+.offer {
+  &__title {
+    color: $main-color-yellow;
+    font-family: $secondary-font;
+    font-size: 48px;
+    line-height: 62px;
+    text-align: center;
+  }
+
+  &__info {
+    display: flex;
+    margin-top: 64px;
+    padding: 31px 75px 21px 51px;
+    height: 382px;
+    border-radius: 50px;
+    background-color: $main-color-yellow;
+  }
+
+  &__image {
+    margin-right: 83px;
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &-title {
+      margin-bottom: 50px;
+      font-family: $secondary-font;
+      font-size: 36px;
+      line-height: 47px;
+    }
+  }
+
+  &__benefits {
+    &-list {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      max-width: 613px;
+    }
+
+    &__text {
+      width: 100%;
+    }
+
+    &-icon {
+      margin-right: 19px;
+
+      &--first-icon {
+        margin-right: 12px;
+      }
+    }
+
+    &-item {
+      display: flex;
+      align-items: center;
+      width: 171px;
+      font-size: 12px;
+      line-height: 18px;
+
+      &:nth-child(-n + 3) {
+        margin-bottom: 36px;
+      }
+    }
+  }
+}
